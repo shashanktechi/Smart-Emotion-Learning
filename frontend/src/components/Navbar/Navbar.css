@@ -1,0 +1,91 @@
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 8%;
+
+    background:white;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.logo{
+    height:60px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#1E293B;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#2563EB;
+}
+
+.nav-links .active{
+    color:#2563EB;
+}
+
+.nav-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.login-btn{
+
+    background:white;
+
+    border:2px solid #2563EB;
+
+    color:#2563EB;
+
+    padding:10px 24px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+}
+
+.register-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 24px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+}
+
+.login-btn:hover{
+
+    background:#2563EB;
+
+    color:white;
+}
+
+.register-btn:hover{
+
+    background:#1D4ED8;
+}

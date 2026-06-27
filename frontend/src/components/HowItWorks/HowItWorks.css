@@ -1,0 +1,60 @@
+.how-it-works{
+
+    padding:90px 8%;
+
+    text-align:center;
+
+    background:#F8FAFC;
+}
+
+.how-it-works h2{
+
+    font-size:42px;
+
+    color:#1E293B;
+}
+
+.how-it-works p{
+
+    margin-top:15px;
+
+    color:#64748B;
+}
+
+.steps{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+}
+
+.step{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.step:hover{
+
+    transform:translateY(-8px);
+}
+
+.step-icon{
+
+    font-size:45px;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+}
